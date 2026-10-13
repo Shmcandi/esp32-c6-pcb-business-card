@@ -1,0 +1,86 @@
+** Drc report for aio_card.kicad_pcb **
+** Created on 2026-10-13T23:49:57 **
+** Report includes: Errors, Warnings **
+
+** Found 17 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1983 mm)
+    Local override; error
+    @(18.0000 mm, 19.3800 mm): Pad 1 [GND] of J3 on F.Cu
+    @(20.0228 mm, 20.0154 mm): Track [VBUS] on F.Cu, length 0.6787 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu, priority 0
+    @(7.8800 mm, 23.8000 mm): Pad A1 [GND] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu, priority 0
+    @(7.8800 mm, 30.2000 mm): Pad A12 [GND] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu, priority 0
+    @(7.8800 mm, 30.2000 mm): Pad B1 [GND] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu, priority 0
+    @(7.8800 mm, 23.8000 mm): Pad B12 [GND] of J1 on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(12.5225 mm, 32.2373 mm): Segment of R2 on F.Silkscreen
+    @(13.0000 mm, 32.0800 mm): PCB text '6:DC' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(12.5225 mm, 22.2373 mm): Segment of R1 on F.Silkscreen
+    @(13.0000 mm, 21.9200 mm): PCB text '2:3V3' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 27.0000 mm): Pad 4 [MOSI] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 29.5400 mm): Pad 5 [RES] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 32.0800 mm): Pad 6 [DC] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 19.3800 mm): Pad 1 [GND] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 21.9200 mm): Pad 2 [3V3] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.5000 mm, 33.5000 mm): Segment on F.Silkscreen
+    @(18.0000 mm, 24.4600 mm): Pad 3 [SCK] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(13.0000 mm, 32.0800 mm): PCB text '6:DC' on F.Silkscreen
+    @(12.0000 mm, 32.8250 mm): Pad 1 [CC2] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(13.0000 mm, 21.9200 mm): PCB text '2:3V3' on F.Silkscreen
+    @(12.0000 mm, 21.1750 mm): Pad 2 [GND] of R1 on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(35.0000 mm, 41.0000 mm): Segment on B.Silkscreen
+    @(40.0000 mm, 31.0000 mm): PCB text 'JST-PH: pin1 = +  (check polarity!)' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(35.0000 mm, 41.0000 mm): Segment on B.Silkscreen
+    @(40.0000 mm, 27.0000 mm): PCB text 'LiPo battery area (stick on back)' on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

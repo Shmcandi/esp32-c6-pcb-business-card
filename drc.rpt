@@ -1,0 +1,78 @@
+** Drc report for oled_card.kicad_pcb **
+** Created on 2026-10-12T20:35:37 **
+** Report includes: Errors, Warnings **
+
+** Found 15 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(15.2400 mm, 18.1100 mm): Pad 10 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(12.7000 mm, 18.1100 mm): Pad 11 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(10.1600 mm, 18.1100 mm): Pad 12 [3V3] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(7.6200 mm, 18.1100 mm): Pad 13 [GND] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(5.0800 mm, 18.1100 mm): Pad 14 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(20.3200 mm, 18.1100 mm): Pad 8 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(2.2000 mm, 18.1000 mm): Segment on F.Silkscreen
+    @(17.7800 mm, 18.1100 mm): Pad 9 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(5.0800 mm, 35.8900 mm): Pad 1 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(7.6200 mm, 35.8900 mm): Pad 2 [BTN] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(10.1600 mm, 35.8900 mm): Pad 3 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(12.7000 mm, 35.8900 mm): Pad 4 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(15.2400 mm, 35.8900 mm): Pad 5 [SDA] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(17.7800 mm, 35.8900 mm): Pad 6 [SCL] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.2000 mm, 35.9000 mm): Segment on F.Silkscreen
+    @(20.3200 mm, 35.8900 mm): Pad 7 [<no net>] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(34.0000 mm, 46.0000 mm): Segment on B.Silkscreen
+    @(33.2500 mm, 44.7500 mm): PTH pad 3 [BTN] of SW1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,9 @@
+# KiCad temporary files
+*.tmp
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.dsn
+*.ses
+__pycache__/
+*.pyc
